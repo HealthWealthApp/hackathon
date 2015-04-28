@@ -1,0 +1,15 @@
+{
+  "name": "HealthWealth",
+  "version": "1.0.0",
+  "description": "A medical app that allows you to find doctors, book appointments and store your relevant medical information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pricecheck UX",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.1"
+  }
+}
