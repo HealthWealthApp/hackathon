@@ -3,23 +3,20 @@
 <head>
 	<title>HealthWealth</title>
 	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
-	<script type="text/javascript" src="/js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
 <body>
 
-	<div class="container">
-		
-		<div class="row">
+	{{{body}}}	
 
-			<div class="col s12">
-
-				{{{body}}}	
-				
-			</div>
-
-		</div>
-
-	</div>
-	
+	<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="/js/materialize.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(".button-collapse").sideNav();
+			$('select').material_select();
+		});
+	</script>
 </body>
 </html>
