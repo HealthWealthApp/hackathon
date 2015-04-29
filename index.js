@@ -10,14 +10,49 @@ var handlebars = require('express-handlebars').create({
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
-// Homepage
+// Signup/Default
 app.get('/', function(req, res) {
+	res.render('signup');
+});
+
+// Homepage
+app.get('/home', function(req, res) {
 	res.render('home');
 });
 
-// About
-app.get('/about', function(req, res) {
-	res.render('about');
+// Call
+app.get('/call', function(req, res) {
+	res.render('call');
+});
+
+// Profile
+app.get('/call/profile', function(req, res) {
+	res.render('profile');
+});
+
+// Map
+app.get('/map', function(req, res) {
+	res.render('map');
+});
+
+// Map
+app.get('/map/active', function(req, res) {
+	res.render('active');
+});
+
+// Appointment
+app.get('/appointment', function(req, res) {
+	res.render('appointment');
+});
+
+// Pharmacy
+app.get('/pharmacy', function(req, res) {
+	res.render('pharmacy');
+});
+
+// ER
+app.get('/er', function(req, res) {
+	res.render('er');
 });
 
 // 404 page
