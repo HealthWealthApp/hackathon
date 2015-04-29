@@ -12,6 +12,9 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		sass: { // Task
 			dist: { // Target
+				options: {
+					style: 'compressed'
+				},
 				files: [{
 					'public/css/style.css': 'sass/style.scss'
 				}]
