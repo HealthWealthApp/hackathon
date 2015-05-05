@@ -13,8 +13,23 @@ body {
 }
 
 // nav
-nav .brand-logo {
-	font-size: 19px;
+nav {
+	.brand-logo {
+		font-size: 19px;
+	}
+
+	.side-nav {
+
+		a {
+			height: 48px;
+			line-height: 48px;
+		}
+
+		i {
+			float: left;
+			margin-right: 16px;
+		}
+	}
 }
 
 // load screen
@@ -36,5 +51,35 @@ nav .brand-logo {
 		border-radius: 100px;
 		height: 100px;
 		overflow: hidden;
+	}
+}
+
+// call
+.call {
+	.card {
+		.collection {
+			background: none;
+			border-width: 0px;
+
+			p {
+				font-size: 12px;
+			}
+
+			p.address {
+				font-size: 11px;
+				margin-bottom: 10px;
+			}
+
+			.btn {
+				width: 44%;
+				float: left;
+				padding: 0;
+				margin-bottom: 0;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
 	}
 }
