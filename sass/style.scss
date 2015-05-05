@@ -13,8 +13,27 @@ body {
 }
 
 // nav
-nav .brand-logo {
-	font-size: 19px;
+nav {
+	.brand-logo {
+		font-size: 19px;
+	}
+
+	.side-nav {
+
+		a {
+			height: 48px;
+			line-height: 48px;
+		}
+
+		i {
+			float: left;
+			margin-right: 16px;
+		}
+	}
+
+	a.button-collapse {
+		float: right;
+	}
 }
 
 // load screen
