@@ -1,38 +1,40 @@
-@charset "UTF-8";
+@import "materialize";
 
-// Mixins
-@import "components/prefixer";
-@import "components/mixins";
-@import "components/color";
+body {
+	background-color: #efefef;
+}
 
-// Variables;
-@import "components/variables";
+.container {
+	padding: 0;
+}
 
-// Reset
-@import "components/normalize";
+.card.login {
+	margin-top: 0;
+}
 
-// components
-@import "components/global";
-@import "components/icons-material-design";
-@import "components/grid";
-@import "components/navbar";
-@import "components/roboto";
-@import "components/typography";
-@import "components/cards";
-@import "components/toast";
-@import "components/tabs";
-@import "components/tooltip";
-@import "components/buttons";
-@import "components/dropdown";
-@import "components/waves";
-@import "components/modal";
-@import "components/collapsible";
-@import "components/materialbox";
-@import "components/form";
-@import "components/table_of_contents";
-@import "components/sideNav";
-@import "components/preloader";
-@import "components/slider";
-@import "components/date_picker/default.scss";
-@import "components/date_picker/default.date.scss";
-@import "components/date_picker/default.time.scss";
+// nav
+nav .brand-logo {
+	font-size: 19px;
+}
+
+// load screen
+.load-screen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: url(../img/load-screen.png) center center;
+}
+
+// signup
+.signup {
+	.card-image {
+		width: 100px;
+		margin: 0 auto;
+		border-radius: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+}
