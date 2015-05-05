@@ -57,3 +57,33 @@ nav {
 		overflow: hidden;
 	}
 }
+
+// call
+.call {
+	.card {
+		.collection {
+			background: none;
+			border-width: 0px;
+
+			p {
+				font-size: 12px;
+			}
+
+			p.address {
+				font-size: 11px;
+				margin-bottom: 10px;
+			}
+
+			.btn {
+				width: 44%;
+				float: left;
+				padding: 0;
+				margin-bottom: 0;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
