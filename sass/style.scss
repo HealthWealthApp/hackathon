@@ -12,6 +12,17 @@ body {
 	margin-top: 0;
 }
 
+// load screen
+.load-screen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: url(../img/load-screen.png) center center;
+}
+
 // signup
 .signup {
 	.card-image {
