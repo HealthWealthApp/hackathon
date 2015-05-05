@@ -1,25 +1,6 @@
-<header>
-	<nav>
-		<div class="nav-wrapper">
-			<a href="#!" class="brand-logo">Logo</a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="/call">Call Doctor</a></li>
-				<li><a href="/appointment">Appointment</a></li>
-				<li><a href="/pharmacy">Pharmacies</a></li>
-				<li><a href="/er">ER</a></li>
-			</ul>
-			<ul class="side-nav" id="mobile-demo">
-				<li><a href="/call">Call Doctor</a></li>
-				<li><a href="/appointment">Appointment</a></li>
-				<li><a href="/pharmacy">Pharmacies</a></li>
-				<li><a href="/er">ER</a></li>
-			</ul>
-		</div>
-	</nav>	
-</header>
+{{> nav}}
 
-<div class="container">
+<div class="container signup">
 
 
 	<div class="row">
@@ -34,7 +15,7 @@
 					<form class="col s12">
 						<div class="row">
 							<div class="input-field col s12">
-								<input placeholder="Name Surname" id="name_surname" type="text" class="validate">
+								<input id="name_surname" type="text" class="validate">
 								<label for="name_surname">Name</label>
 							</div>
 						</div>
