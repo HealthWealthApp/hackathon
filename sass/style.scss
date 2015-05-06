@@ -1,7 +1,14 @@
 @import "materialize";
 
+// vars
+$blue: #81d4fa;
+$green: #1de9b6;
+$grey: #90a4ae;
+$dark-grey: #6b777c;
+$light-grey: #f5f5f5;
+
 body {
-	background-color: #efefef;
+	background-color: $light-grey;
 }
 
 .container {
@@ -12,8 +19,14 @@ body {
 	margin-top: 0;
 }
 
+.btn {
+	background-color: $green;
+}
+
 // nav
 nav {
+	background-color: $blue;
+
 	.brand-logo {
 		font-size: 19px;
 	}
@@ -61,23 +74,26 @@ nav {
 			background: none;
 			border-width: 0px;
 
-			p {
-				font-size: 12px;
-			}
+			.collection-item.avatar {
 
-			p.address {
-				font-size: 11px;
-				margin-bottom: 10px;
-			}
+				p {
+					font-size: 12px;
+				}
 
-			.btn {
-				width: 44%;
-				float: left;
-				padding: 0;
-				margin-bottom: 0;
+				p.address {
+					font-size: 11px;
+					margin-bottom: 10px;
+				}
 
-				&:last-child {
-					margin-right: 0;
+				.btn {
+					width: 44%;
+					float: left;
+					padding: 0;
+					margin-bottom: 0;
+
+					&:last-child {
+						margin-right: 0;
+					}
 				}
 			}
 		}
