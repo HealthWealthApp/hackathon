@@ -1,52 +1,43 @@
-<div class="container">
-
-	<div class="card">
-
-		<div class="card-content">
-			<div class="row">
-				<h2>Register</h2>
-				<form class="col s12">
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="name" type="text" class="validate">
-							<label for="name">Name</label>
-						</div>
+<div class="card no-margin">
+	<div class="card-content">
+		<div class="row">
+			<h3>Register</h3>
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="name" type="text" class="validate">
+						<label for="name">Name</label>
 					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="email" type="email" class="validate">
-							<label for="email">Email</label>
-						</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
 					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="password" type="password" class="validate">
-							<label for="password">Password</label>
-						</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
 					</div>
-					<div class="row">
-						<div class="col s12">
-							<a href="/home" class="btn waves-effect waves-light btn-large">
-								Lets go! 
-								<i class="mdi-content-send right"></i>
-							</a>
-						</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<a href="/home" class="btn waves-effect waves-light white-text">Lets go!</a>
 					</div>
-				</form>
-			</div>
+				</div>
+			</form>
 		</div>
-
 	</div>
-	
-
 </div>
+
 <div class="load-screen valign-wrapper">
-	<h1 class="valign">HealthWealth</h1>
+	<h1 class="valign logo"><img src="img/logo.png"></h1>
 </div>
 <script>
 	$(document).ready(function(){
-		setTimeout(function(){
-			$('.load-screen').fadeOut(300);
-		}, 3000);
+		// setTimeout(function(){
+		// 	$('.load-screen').fadeOut(300);
+		// }, 3000);
 	});
 </script>

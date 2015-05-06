@@ -23,12 +23,31 @@ body {
 	background-color: $green;
 }
 
+// layout
+.row div.col.s12 {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+// logo
+.logo {
+	text-align: center;
+	width: 100%;
+}
+
 // nav
 nav {
 	background-color: $blue;
 
 	.brand-logo {
 		font-size: 19px;
+	}
+
+	.button-collapse {
+		margin-right: 7px;
 	}
 
 	.side-nav {
