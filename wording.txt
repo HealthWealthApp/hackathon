@@ -1,0 +1,5 @@
+Wording:
+
+Our hackathon idea was HealthWealth. The premise behind it is that at its core it’s an uber health service (for the demo this was what we focussed on). Brainstorming ideas we also identified other areas where we can capitilize on: “yellow paging doctors, services and places of interest”. The device could also elevate the hassle of making appointments and filling in forms. It could also act as a price comparison for health related services. You store you medical aid details and history. It was a good excercise for the team: we played with material design (the new trend), it is a Javascript fullstack app that runs routes with Express, has Grunt for task automation and uses Handlebars templating.
+
+This was a proof of concept, and we are considering it as a revisit in future hackathons. The code is stored on Github for anyone interested in taking a look.
