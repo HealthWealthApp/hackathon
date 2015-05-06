@@ -79,10 +79,13 @@ nav {
 .signup {
 	.card-image {
 		width: 100px;
-		margin: 0 auto;
+		margin: 10px auto;
 		border-radius: 100px;
 		height: 100px;
 		overflow: hidden;
+	}
+	.card-content {
+		padding-top: 0;
 	}
 }
 
